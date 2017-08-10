@@ -39,3 +39,4 @@
 3. [Deconfusing Pre- and Post-processing](https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3#.lpnqyww7m)
 4. [[心得] 什麼是 postcss?](http://huli.logdown.com/posts/262723-experiences-what-is-postcss)
 5. [cssnext](http://cssnext.io/)
+6. [淺談 CSS 方法論與 Atomic CSS](https://blog.arvinh.info/2017/04/29/css-methodology/)
