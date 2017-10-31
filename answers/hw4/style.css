@@ -21,6 +21,14 @@ body{
     margin-left: 100px;
     margin-top: 50px;
     font-size: 0;
+    filter: brightness(0.7);
+    transition-duration: 1s;
+}
+
+.col:hover{
+    filter: brightness(1);
+    box-shadow: 0px 0px 20px black;
+    transition-duration: 1s;
 }
 
 .col:first-child{
@@ -46,6 +54,12 @@ body{
     border-radius: 50px;
 }
 
+p{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
 .describe{
     width: 190px;
     height: 60px;
@@ -57,7 +71,7 @@ body{
 }
 
 .channel_name{
-    width:100px;
+    width:190px;
     height: 30px;
     flex: 1;
     margin: 0;
@@ -66,7 +80,7 @@ body{
 }
 
 .host_name{
-    width: 100px;
+    width: 190px;
     height: 30px;
     flex: 1;
     margin: 0; 

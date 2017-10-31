@@ -21,6 +21,14 @@ body{
     margin-left: 100px;
     margin-top: 50px;
     font-size: 0;
+    filter: brightness(0.7);
+    transition-duration: 1s;
+}
+
+.col:hover{
+    filter: brightness(1);
+    box-shadow: 0px 0px 20px black;
+    transition-duration: 1s;
 }
 
 .col:first-child{
